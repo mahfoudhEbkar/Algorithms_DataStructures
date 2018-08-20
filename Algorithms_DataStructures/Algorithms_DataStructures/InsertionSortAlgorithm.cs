@@ -38,6 +38,13 @@ namespace Algorithms_DataStructures
                 }
                 arr[j] = temp;
             }
+            Console.WriteLine("Array After sort: ");
+            foreach (int val in arr)
+            {
+                Console.Write(val + ",");
+
+            }
+            Console.ReadLine();
         }
     }
 }
