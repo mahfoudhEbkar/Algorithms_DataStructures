@@ -40,7 +40,7 @@ namespace Algorithms_DataStructures
             Console.WriteLine("Array After  sort: ");
             foreach (int val in arr)
             {
-                Console.Write(val + ",");
+                Console.Write(val + ",,");
             }
             Console.ReadLine( );
         }
