@@ -10,10 +10,10 @@ namespace Algorithms_DataStructures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!  ");
             //int[] arr = { 7, 8, 4, 6, 2, 1 };
             int[] arr = { 4, 3, 5, 1, 2, 0 };
-            Console.WriteLine("Array before sort: 4, 3, 5, 1, 2, 0");
+            Console.WriteLine("Array  before sort: 4, 3, 5, 1, 2, 0");
             //Console.WriteLine("Array before sort: 7,8,4,6,2,1");
 
 
@@ -38,13 +38,13 @@ namespace Algorithms_DataStructures
                 }
                 arr[j] = temp;
             }
-            Console.WriteLine("Array After sort: ");
+            Console.WriteLine("Array After  sort: ");
             foreach (int val in arr)
             {
                 Console.Write(val + ",");
 
             }
-            Console.ReadLine();
+            Console.ReadLine( );
         }
     }
 }
