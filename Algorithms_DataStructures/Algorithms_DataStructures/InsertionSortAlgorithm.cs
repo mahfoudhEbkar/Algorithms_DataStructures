@@ -25,15 +25,14 @@ namespace Algorithms_DataStructures
                 while (j > 0 && arr[j - 1] > temp)
                 {
                     arr[j] = arr[j - 1];
-
-
                     foreach (int val in arr)
                     {
                         Console.Write(val + ",");
 
 
                     }
-                    Console.WriteLine("  time i " + i + "  time j " + j);
+
+                    Console.WriteLine("time i " + i + "  time j " + j);
                     j--;
                 }
                 arr[j] = temp;
@@ -42,7 +41,6 @@ namespace Algorithms_DataStructures
             foreach (int val in arr)
             {
                 Console.Write(val + ",");
-
             }
             Console.ReadLine();
         }
